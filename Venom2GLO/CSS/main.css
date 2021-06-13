@@ -1,0 +1,216 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #14131a;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+.trailer-page {
+  background-image: url("../IMG/blood-bg.png"), url("../IMG/bg-main.png");
+  background-repeat: no-repeat;
+  background-position: top 0 right 0, center;
+}
+.about-page {
+  background-image: url("../IMG/bg-main.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  align-items: center;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+.main {
+  margin-bottom: 144px;
+}
+.venom-photo {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.logo-link {
+  display: inline-block;
+  margin-right: 52px;
+}
+.logo-link:hover img {
+  background-color: rgba(95, 6, 0, 0.815);
+  border-radius: 25px;
+  transition: 1.5s;
+}
+.logo-link img {
+  width: 46px;
+  height: 71px;
+  border-radius: 20px;
+}
+.nav {
+}
+.nav-menu {
+  display: flex;
+}
+.nav-menu-item {
+  margin-right: 30px;
+}
+.nav-menu-link {
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.movie {
+}
+.movie-description {
+}
+.movie-date {
+  display: block;
+  font-size: 24px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 38px;
+}
+.movie-text {
+  margin-top: 40px;
+  max-width: 423px;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 70px;
+}
+.button-gruop {
+  display: flex;
+  justify-content: space-between;
+  max-width: 415px;
+}
+.button-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 204px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.button-secondary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 204px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+  background-color: #14131a;
+  cursor: pointer;
+}
+.button-secondary:hover {
+  background-color: rgba(95, 6, 0, 0.815);
+  transition: 1.5s;
+}
+.button-primary-link {
+  font-size: 14px;
+  line-height: 16px;
+  color: #8d0019;
+  margin-left: 10px;
+}
+.button-secondary-link {
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+  margin-left: 10px;
+}
+.coloumn-group {
+  display: flex;
+  align-items: flex-start;
+}
+.col {
+  color: rgba(255, 255, 255, 0.8);
+}
+.col h3 {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 5px;
+}
+.col a {
+  color: rgba(255, 255, 255, 0.8);
+}
+.left-col-desc {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 165px;
+}
+.left-col-desc h1 {
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 20px;
+}
+.left-col-desc p {
+  max-width: 420px;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 30px;
+}
+
+.actors-list {
+  column-count: 2;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 22px;
+}
+.actors-list-item {
+  margin-right: 60px;
+}
+.video-trailer iframe {
+  width: 356px;
+  height: 205px;
+  border-radius: 5px;
+}
+.right-col-desc {
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+}
+.banner {
+  margin-right: 30px;
+}
+.staff-desc {
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+}
+.staff-list {
+  margin-bottom: 20px;
+}
